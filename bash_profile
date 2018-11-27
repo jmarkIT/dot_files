@@ -4,6 +4,18 @@ if [ -f ~/.bashrc ];
   source ~/.bashrc
 fi
 
+# Loads aliases configuration if available
+if [ -f ~/.aliases ];
+  then
+  source ~/.aliases
+fi
+
+# Loads functions configuration if available
+if [ -f ~/.functions ];
+  then
+  source ~/.functions
+fi
+
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/share/python:$PATH
 
