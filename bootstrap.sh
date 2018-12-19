@@ -29,7 +29,7 @@ fi
 
 # Symlink files into place
 
-ln -s bash_profile ~/.bash_profile
-ln -s aliases ~/.aliases
-ln -s functions ~/.functions
-ln -s vimrc ~/.vimrc
+ln -s ~/dot_files/bash_profile ~/.bash_profile
+ln -s ~/dot_files/aliases ~/.aliases
+ln -s ~/dot_files/functions ~/.functions
+ln -s ~/dot_files/vimrc ~/.vimrc
