@@ -1,0 +1,4 @@
+#aliases that are sourced by .bash_profile
+
+alias python=python2
+alias badssh="ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
