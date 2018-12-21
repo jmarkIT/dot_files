@@ -33,3 +33,4 @@ ln -s -f ~/dot_files/bash_profile ~/.bash_profile
 ln -s -f ~/dot_files/aliases ~/.aliases
 ln -s -f ~/dot_files/functions ~/.functions
 ln -s -f ~/dot_files/vimrc ~/.vimrc
+ln -s -f ~/dot_files/tmux.conf ~/.tmux.conf
