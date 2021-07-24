@@ -2,3 +2,4 @@
 
 #alias python=python2
 alias badssh="ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
+alias upup="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y"
