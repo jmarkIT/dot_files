@@ -18,6 +18,7 @@ fi
 
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/share/python:$PATH
+export PATH=/home/james/.local/bin:$PATH
 
 PS1='\[\e[1;32m\][\u@\h \W]\$\[\e[0m\] '
 export CLICOLOR=1
