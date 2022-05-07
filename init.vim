@@ -1,4 +1,12 @@
-set termguicolors
+if (has("termguicolors"))
+    set termguicolors
+endif
+syntax enable
+" colorscheme dracula
+
+set splitright
+set splitbelow
+
 set nocompatible            " disable compatibility to old-time vi
 set showmatch               " show matching
 set ignorecase              " case insensitive
@@ -24,6 +32,9 @@ set ttyfast                 " Speed up scrolling in Vim
 " set noswapfile            " disable creating swap file
 " set backupdir=~/.cache/vim " Directory to store backup files.
 let g:go_fmt_command = "goimports"
+
+" Keymappings
+:inoremap ii <Esc>
 
 call plug#begin()
 " Plugin Section
